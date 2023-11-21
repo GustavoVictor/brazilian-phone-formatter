@@ -10,17 +10,20 @@ A compact and understandable library that formats all (or almost all) types of B
 
 ## Conversions
 - Landline Numbers: Starting with 2, 3, 4, and 5
+
 | Country Code | Area Code | Number | Formatted Number  |
-| :-------------------------: | :---------------------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------- | :---------------------: | :----------: | :----------: |
 |    `55`    |        `47`         |     `33251368`     | `+55 (47) 3325-1368` |
 
 - Mobile Numbers: Starting with 7, 8, or 9
+
 | Country Code | Area Code | Number | Formatted Number  |
 | :-------------------------: | :---------------------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 |    `55`    |        `47`         |     `84461240 (without ninth digit)`     | `+55 (47) 8446-1240` |
 |    `55`    |        `47`         |     `984461240 (with ninth digit)`     | `+55 (47) 9 8446-1240` |
 
 - Public Utility and Emergency Service Numbers (SUP) – 3 digits
+
 | Service Name | Number | Formatted Number  |
 | :-------------------------: | :---------------------: |:----------------------------------------------------------------------------------------------------------------------------------------- |
 |`Municipal Guard`                             |   `153`   |    `153`    |
@@ -37,6 +40,7 @@ A compact and understandable library that formats all (or almost all) types of B
 
 
 - Extensions of numbers from providers of landline, mobile, and subscription TV services
+
 | Provider | Prefix | Number | Formatted Number | 
 | :-------------------------: | :---------------------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | `Embratel`                             |  `103 (landline)`    |   `21`  |   `10321`     |
@@ -48,6 +52,7 @@ A compact and understandable library that formats all (or almost all) types of B
 
 
 - Non-geographic Numbers
+
 | Type | Description | Number | Formatted Number | 
 | :-------------------------: | :---------------------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | `0300`  |  `Charged on a shared basis: user pays local segment, and provider assumes costs of long-distance segment.`    |   `03007291247`  |   `0300 729 1247`     |
@@ -84,8 +89,3 @@ Format("554733251368")
 The output will be `+55 (47) 3325-1368`
 
 
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**

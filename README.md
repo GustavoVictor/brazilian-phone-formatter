@@ -89,3 +89,8 @@ Format("554733251368")
 The output will be `+55 (47) 3325-1368`
 
 
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
